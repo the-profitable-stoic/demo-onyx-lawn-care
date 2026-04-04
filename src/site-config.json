@@ -1,0 +1,532 @@
+{
+  "business": {
+    "name": "Onyx Lawn Care",
+    "phone": "555-law-r93",
+    "category": "lawn-care",
+    "city": "Raleigh",
+    "state": "NC"
+  },
+  "design": {
+    "preset": {
+      "id": "lawn-care-dark-premium",
+      "categoryGroup": "lawn-care",
+      "name": "Dark Premium",
+      "recipeFile": "lawn-care/dark-premium.astro",
+      "colors": {
+        "primary": "#4ADE80",
+        "primaryDark": "#3bb266",
+        "primaryLight": "#b7f2cc",
+        "secondary": "#2A2A2A",
+        "accent": "#65e393",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "lawn-care/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Precision Lawn Care for Raleigh's Unique Climate",
+      "heroSubline": "Local experts serving the Triangle since 2012. We understand how Piedmont clay soil and humid summers impact your lawn.",
+      "aboutTitle": "Rooted in Raleigh",
+      "aboutText": [
+        "Founded by NC State grad Jake Wilson, Onyx Lawn Care began with a single mower and a passion for transforming Raleigh's challenging red clay landscapes. After years of watching generic lawn services struggle with our region's specific conditions, we built a team that truly understands local soil science.",
+        "Our approach combines data-driven soil treatments with old-fashioned attention to detail. We test drainage patterns in Brier Creek's compacted soils, select grass varieties proven to thrive near Pullen Park, and time treatments around North Carolina's unpredictable spring storms.",
+        "As Raleigh grows, we're committed to preserving green spaces amidst rapid development. From historic Oakwood district gardens to North Hills' new constructions, we adapt our methods for every property."
+      ],
+      "valueProps": [
+        {
+          "title": "Clay Soil Specialists",
+          "description": "Custom aeration programs combat Piedmont's dense red clay for better drainage and root growth"
+        },
+        {
+          "title": "Storm Recovery",
+          "description": "Emergency debris removal after Carolina thunderstorms with limb-safe cleanup techniques"
+        },
+        {
+          "title": "University-Tested",
+          "description": "Grass blends developed in partnership with NC State's Turfgrass Program"
+        },
+        {
+          "title": "Tech-Savvy Scheduling",
+          "description": "Real-time crew tracking via app with before/after photos for every service"
+        }
+      ],
+      "ctaHeadline": "See What Our Triangle Neighbors Say",
+      "ctaSubline": "Get a free lawn analysis tailored to your neighborhood's microclimate"
+    },
+    "services": [
+      {
+        "slug": "clay-soil-lawn-aeration",
+        "name": "Clay Soil Aeration",
+        "shortDescription": "Core aeration service that actually works on Raleigh's stubborn red clay",
+        "description": "Standard aeration methods often fail in Wake County's dense clay soil. Our heavy-duty equipment extracts 3-inch plugs to relieve compaction from construction equipment and foot traffic, common in rapidly developing areas like Brier Creek.\n\nWe time treatments for early fall when warm-season grasses recover fastest, avoiding spring thunderstorms that can flood freshly aerated lawns. Includes soil amendment application using a compost blend tested at NC State to improve water retention without promoting fungus in our humid climate.\n\nPost-service, we mark irrigation heads and delicate areas (like those near historic Oakwood district tree roots) to prevent damage during the process.",
+        "process": [
+          "Step 1: Soil moisture test to ensure ideal plug extraction conditions",
+          "Step 2: Deep-tine aeration with GPS-guided pattern to avoid utilities",
+          "Step 3: Application of clay-breaking soil amendments",
+          "Step 4: Detailed report with drainage improvement recommendations"
+        ],
+        "benefits": [
+          "Reduces stormwater pooling in low-lying Raleigh yards",
+          "Helps grass survive summer droughts between thunderstorms",
+          "Prevents soil erosion on sloped lots common in North Hills",
+          "Improves fertilizer effectiveness in nutrient-locking clay"
+        ],
+        "faq": [
+          {
+            "question": "How often does Raleigh clay soil need aeration?",
+            "answer": "Most properties benefit from annual service, but we recommend twice-yearly treatments for lawns with heavy clay content or construction debris, common in newer Cary developments."
+          },
+          {
+            "question": "Will aeration leave holes visible for weeks?",
+            "answer": "Our specialized equipment creates smaller plugs that break down within 7-10 days, faster than standard aerators. We time services before predicted rain to speed recovery."
+          }
+        ]
+      },
+      {
+        "slug": "storm-damage-cleanup",
+        "name": "Storm Damage Cleanup",
+        "shortDescription": "24/7 emergency response for fallen limbs and debris after Triangle thunderstorms",
+        "description": "When Carolina storms knock down limbs across driveways or flood gardens, our crews deploy with storm-specific protocols. We prioritize safety with insulated tools for working near downed power lines (common in older Raleigh neighborhoods with overhead utilities) and use ground protection mats to prevent damage to soggy lawns.\n\nFor historic districts like Five Points with mature trees, we employ arborist-approved techniques to remove debris without harming sensitive root systems. All organic material gets recycled through Wake County's yard waste program.\n\nUnlike generic services, we assess underlying issues: regrading drainage channels in Morrisville's newer developments, reseeding areas where floodwaters eroded topsoil, and treating fungal outbreaks that follow prolonged moisture.",
+        "process": [
+          "Step 1: Safety assessment (utilities, unstable limbs, etc.)",
+          "Step 2: Strategic debris removal to prevent lawn damage",
+          "Step 3: Soil restoration for flood-affected areas",
+          "Step 4: Preventative treatment for common post-storm lawn diseases"
+        ],
+        "benefits": [
+          "Faster response than insurance contractors during peak storm seasons",
+          "Specialized equipment for working around delicate landscaping",
+          "Prevents long-term damage from standing water",
+          "Complies with HOA cleanup deadlines in planned communities"
+        ],
+        "faq": [
+          {
+            "question": "Do you handle large tree removals after hurricanes?",
+            "answer": "For trunks over 12\" diameter, we partner with licensed arborists. But we efficiently clear 95% of typical storm debris from Raleigh's common willow oaks and crepe myrtles."
+          },
+          {
+            "question": "Will you work with my insurance company?",
+            "answer": "Yes, we document all damage with geotagged photos and provide detailed invoices that meet claims requirements for Durham and Wake counties."
+          }
+        ]
+      },
+      {
+        "slug": "turf-replacement",
+        "name": "Turf Replacement",
+        "shortDescription": "Heat-tolerant grass installations for Raleigh's challenging microclimates",
+        "description": "Replacing failed lawns requires more than just laying sod in our region. We analyze sun exposure (crucial for shaded Duke Forest-area yards versus sunbaked RTP office parks), foot traffic patterns, and soil pH before recommending turf types.\n\nFor most Raleigh properties, we use Zenith zoysia – a variety proven at NC State to withstand summer humidity while surviving occasional ice storms. In heavily shaded areas near UNC Chapel Hill, we install fine fescue blends that outperform standard tall fescue.\n\nEvery installation includes our 90-day establishment guarantee, with follow-up visits to adjust irrigation in clay soils that dry unevenly. We source sod from Piedmont growers to ensure compatibility with local conditions.",
+        "process": [
+          "Step 1: Site analysis measuring sun exposure, drainage, and usage",
+          "Step 2: Soil amendment based on test results",
+          "Step 3: Precision grading to prevent pooling",
+          "Step 4: Installation with staggered seams for natural look"
+        ],
+        "benefits": [
+          "Grass varieties selected for Triangle weather extremes",
+          "Proper grading prevents washouts on sloped lots",
+          "Includes free adjustment visits during critical first months",
+          "No surprise fees for soil prep – quoted upfront"
+        ],
+        "faq": [
+          {
+            "question": "How long until we can use the lawn after replacement?",
+            "answer": "Most lawns are walkable in 2 weeks, but we provide detailed timelines based on grass type – quicker recovery for Bermuda in sunny Cary yards, longer for shade-tolerant blends in Chapel Hill."
+          },
+          {
+            "question": "Do you repair irrigation systems during replacement?",
+            "answer": "Yes, we flag damaged lines common in older Raleigh neighborhoods and can coordinate with licensed irrigators for major repairs before installation."
+          }
+        ]
+      },
+      {
+        "slug": "seasonal-fertilization",
+        "name": "Seasonal Fertilization",
+        "shortDescription": "Science-backed nutrient programs timed for North Carolina's growing seasons",
+        "description": "Raleigh's eight-month growing season demands more than generic ",
+        "process": [
+          "Step 1: Spring pre-emergent application (timed before dogwood blooms)",
+          "Step 2: Early summer slow-release feed (adjusted for predicted heat waves)",
+          "Step 3: Fall root-building blend (with extra potassium for winter hardiness)",
+          "Step 4: Winter soil analysis to plan next year's program"
+        ],
+        "benefits": [
+          "Prevents fertilizer burn during July/August heat stress",
+          "Includes grub prevention to protect against Raleigh's common pests",
+          "Custom blends for shady vs sunny lawn areas",
+          "Detailed records tracking your lawn's progress"
+        ],
+        "faq": [
+          {
+            "question": "Are your treatments safe for kids and pets?",
+            "answer": "We use organic-based products wherever possible and provide clear guidelines for when to avoid treated areas – especially important for families in kid-filled neighborhoods like Cary's Preston."
+          },
+          {
+            "question": "Why not just buy store fertilizer?",
+            "answer": "Big-box products often contain inappropriate nitrogen levels for our clay soils. Our mixes address Piedmont-specific deficiencies verified through annual soil tests."
+          }
+        ]
+      },
+      {
+        "slug": "irrigation-winterization",
+        "name": "Irrigation Winterization",
+        "shortDescription": "Protecting sprinkler systems from Raleigh's unpredictable freezes",
+        "description": "That one surprise December freeze can crack pipes and destroy valves across the Triangle. Our thorough winterization process goes beyond basic blowouts:\n\nWe inspect for common issues in Raleigh's older systems (like brittle PVC in 1970s North Hills homes) and tag components needing spring replacement. For newer smart controllers in Morrisville tech homes, we program proper shutoffs and protect outdoor wiring from moisture.\n\nIncludes a detailed map of your system's drainage points – crucial when sudden thaws create secondary freezing risks. We time services between November 1-15 to beat the first hard frost while allowing for final fall watering.",
+        "process": [
+          "Step 1: Complete system flush with industrial air compressor",
+          "Step 2: Valve box insulation for exposed components",
+          "Step 3: Controller programming for winter mode",
+          "Step 4: Documentation of any repair needs for spring"
+        ],
+        "benefits": [
+          "Prevents costly underground pipe bursts",
+          "Extends lifespan of expensive smart controllers",
+          "Priority scheduling for spring startups",
+          "Includes emergency contact for mid-winter checks"
+        ],
+        "faq": [
+          {
+            "question": "My system was installed in the 1990s - is winterization still necessary?",
+            "answer": "Absolutely. Older Raleigh systems often lack freeze sensors and are more vulnerable to damage. We find 1-2 cracked valves per property on average without proper winter care."
+          },
+          {
+            "question": "Do you service well pump systems common in rural Wake County?",
+            "answer": "Yes, we follow special protocols for draining well tanks and protecting above-ground components in areas like northeast Raleigh."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mark T.",
+        "rating": 5,
+        "service": "Clay Soil Aeration",
+        "text": "After three failed attempts with other companies, Onyx finally improved drainage in my Five Points backyard. They identified construction debris under the soil that others missed – now no more mosquito breeding pools after rains. The crew even marked where my old irrigation lines were buried.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Lisa H.",
+        "rating": 5,
+        "service": "Storm Damage Cleanup",
+        "text": "When a microburst knocked down six crepe myrtles in our North Hills yard, Onyx had the debris cleared before our insurance adjuster arrived. Their careful bucket truck work saved what was left of our Japanese maple. Most impressive was how they tarped the muddy areas to protect our landscaping.",
+        "date": "2024-08-22"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Turf Replacement",
+        "text": "Our new zoysia in Brier Creek has survived two summers without brown patches – a first in 10 years. The crew graded properly to divert water from the foundation, which our builder should have done originally. Love getting texts confirming fertilizer dates based on actual weather forecasts.",
+        "date": "2025-05-30"
+      },
+      {
+        "name": "Priya S.",
+        "rating": 5,
+        "service": "Seasonal Fertilization",
+        "text": "As first-time homeowners near NC State, we didn't realize how differently each part of our yard needed care. Onyx's zone-specific treatments brought our shady side yard back to life without overfeeding the sunny areas. The soil test explained why previous attempts failed.",
+        "date": "2024-10-17"
+      },
+      {
+        "name": "James W.",
+        "rating": 5,
+        "service": "Irrigation Winterization",
+        "text": "Saved us from disaster when temps suddenly dropped to 12° last winter. Their technician found a cracked valve box near our pool equipment that would have flooded the mechanical room. Now our whole Preston neighborhood uses them.",
+        "date": "2025-01-05"
+      },
+      {
+        "name": "Danielle R.",
+        "rating": 5,
+        "service": "Storm Damage Cleanup",
+        "text": "Onyx was the only company willing to tackle our flooded backyard in historic Oakwood after Hurricane Michael. They pumped standing water without damaging century-old tree roots, then reseeded with a special erosion-control blend. Still looks great two years later.",
+        "date": "2023-09-14"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Raleigh Lawn Care Experts | Clay Soil & Storm Specialists",
+        "description": "Local lawn service solving Triangle-specific challenges like red clay compaction and hurricane debris since 2012. Free Raleigh/Durham assessments."
+      },
+      "about": {
+        "title": "Our Raleigh Lawn Care Story | Onyx Lawn Care",
+        "description": "How a NC State grad built a lawn service that truly understands Piedmont soil science and Triangle weather patterns."
+      },
+      "services": {
+        "title": "Raleigh Lawn Services | Clay & Climate Solutions",
+        "description": "Specialized treatments for Triangle lawns: aeration that works on red clay, storm recovery, turf replacement with university-tested grasses."
+      },
+      "contact": {
+        "title": "Contact Raleigh's Lawn Pros | Onyx Lawn Care",
+        "description": "Schedule your free lawn analysis across the Triangle. Serving Durham, Cary, Chapel Hill with local expertise since 2012."
+      },
+      "reviews": {
+        "title": "Raleigh Lawn Care Reviews | Real Triangle Clients",
+        "description": "See how we've solved stubborn clay soil, storm damage, and other local lawn challenges for Raleigh-Durham homeowners."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Durham",
+        "slug": "durham-nc",
+        "state": "NC",
+        "content": "Onyx Lawn Care proudly serves Durham, NC, a vibrant city with a mix of historic charm and modern revitalization. Our team specializes in maintaining lush, healthy lawns in Durham's diverse neighborhoods, from renovated industrial lofts downtown to sprawling suburban yards. With hot, humid summers, Durham lawns require consistent care to combat heat stress and invasive weeds—let us handle the hard work so you can enjoy your outdoor space. We offer tailored lawn care programs, including fertilization, weed control, and irrigation management, to keep your property thriving year-round.",
+        "localContext": "Durham blends historic tobacco warehouses with trendy lofts and a thriving arts scene, creating unique landscaping needs.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Chapel Hill",
+          "Morrisville"
+        ]
+      },
+      {
+        "city": "Cary",
+        "slug": "cary-nc",
+        "state": "NC",
+        "content": "In Cary, NC, Onyx Lawn Care helps homeowners maintain pristine lawns in master-planned communities built from the 1980s to 2000s. These well-established neighborhoods often feature mature trees and expansive green spaces that benefit from our expert care. Cary's hot, humid climate demands proactive lawn maintenance to prevent fungal growth and brown patches. Our services include precision mowing, aeration, and seasonal cleanups to enhance curb appeal for Cary's discerning residents. We understand HOA requirements and design lawn care plans that meet both aesthetic and regulatory standards.",
+        "localContext": "Cary's meticulously planned subdivisions and high homeowner standards make professional lawn care essential.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Apex",
+          "Morrisville"
+        ]
+      },
+      {
+        "city": "Chapel Hill",
+        "slug": "chapel-hill-nc",
+        "state": "NC",
+        "content": "Serving Chapel Hill, NC, Onyx Lawn Care caters to the diverse housing needs around UNC's campus, from faculty homes to student rentals. The university town's mix of historic properties and modern developments requires adaptable lawn care solutions. Chapel Hill's humid summers can quickly turn neglected yards into weed-filled eyesores—our team prevents this with targeted treatments and regular maintenance. We offer eco-friendly options for environmentally conscious residents and handle everything from leaf removal to shrub trimming in this academically focused community.",
+        "localContext": "Chapel Hill's college-town energy combines with Southern charm, creating varied landscaping demands.",
+        "nearbyAreas": [
+          "Durham",
+          "Carrboro",
+          "Hillsborough"
+        ]
+      },
+      {
+        "city": "Apex",
+        "slug": "apex-nc",
+        "state": "NC",
+        "content": "Onyx Lawn Care helps Apex, NC families maintain beautiful lawns in the town's newer developments (2000s-2020s). These growing neighborhoods often have young landscaping that needs proper establishment—we provide the right care to ensure long-term lawn health. Apex's hot summers require deep root watering and heat-resistant grass treatments, which we expertly administer. From sod installation to seasonal fertilization, our services help Apex residents preserve their property values in this fast-growing suburb. We're familiar with the specific grass types commonly planted in recent Apex developments.",
+        "localContext": "Apex's rapid growth means many lawns are newly established and need professional guidance.",
+        "nearbyAreas": [
+          "Cary",
+          "Holly Springs",
+          "Fuquay-Varina"
+        ]
+      },
+      {
+        "city": "Morrisville",
+        "slug": "morrisville-nc",
+        "state": "NC",
+        "content": "In Morrisville, NC, Onyx Lawn Care serves tech professionals and families living near Research Triangle Park (RTP). These busy residents appreciate our reliable, scheduled maintenance that keeps lawns pristine without disrupting work commitments. Morrisville's compact lots and modern housing benefit from our precision edging and clean-line services. The humid climate here causes rapid grass growth—we keep it manicured while preventing overgrowth into walkways and driveways. Our team understands the unique needs of Morrisville's international community and their expectations for well-maintained outdoor spaces.",
+        "localContext": "Morrisville's tech-focused population values efficiency and low-maintenance, high-impact lawn care.",
+        "nearbyAreas": [
+          "Cary",
+          "Durham",
+          "Apex"
+        ]
+      },
+      {
+        "city": "Holly Springs",
+        "slug": "holly-springs-nc",
+        "state": "NC",
+        "content": "Onyx Lawn Care serves Holly Springs, NC, where newer family-oriented communities need consistent lawn maintenance. Many homes here feature large yards perfect for outdoor living—we help keep these spaces healthy and inviting. Holly Springs' clay-heavy soil requires special aeration and amendment techniques that our team masters. During humid summers, we implement disease prevention strategies to protect lawns from common Southern turf ailments. From regular mowing to pest control, we help Holly Springs residents enjoy their outdoor spaces year-round.",
+        "localContext": "Holly Springs' rapid suburban expansion means many lawns are in critical establishment phases.",
+        "nearbyAreas": [
+          "Apex",
+          "Fuquay-Varina",
+          "Cary"
+        ]
+      },
+      {
+        "city": "Wake Forest",
+        "slug": "wake-forest-nc",
+        "state": "NC",
+        "content": "In Wake Forest, NC, Onyx Lawn Care maintains properties ranging from historic downtown homes to new construction neighborhoods. The town's mix of old and new creates diverse landscaping needs we're equipped to handle. Wake Forest's hot summers demand proper irrigation management—we help prevent water waste while keeping lawns green. Our services include specialized care for the town's many tree-shaded yards, where grass struggles with limited sunlight. We tailor each plan to Wake Forest's unique microclimates and soil conditions.",
+        "localContext": "Wake Forest's blend of historic charm and new development requires adaptable lawn care approaches.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Rolesville",
+          "Youngsville"
+        ]
+      },
+      {
+        "city": "Fuquay-Varina",
+        "slug": "fuquay-varina-nc",
+        "state": "NC",
+        "content": "Onyx Lawn Care serves Fuquay-Varina, NC, where rapid growth has created demand for professional lawn services. Many homes here feature traditional Southern landscaping with Bermuda or Zoysia grasses that need specific care. Fuquay-Varina's hot summers require proper mowing heights and timely fertilization to maintain healthy turf. We help residents combat common issues like compacted soil and invasive weeds while preserving the town's small-town aesthetic. Our team understands the unique challenges of maintaining lawns in this transitioning agricultural area.",
+        "localContext": "Fuquay-Varina's transformation from farming community to suburb creates distinct lawn care needs.",
+        "nearbyAreas": [
+          "Holly Springs",
+          "Apex",
+          "Angier"
+        ]
+      },
+      {
+        "city": "Garner",
+        "slug": "garner-nc",
+        "state": "NC",
+        "content": "In Garner, NC, Onyx Lawn Care helps homeowners maintain healthy lawns in this affordable Raleigh suburb. Garner's mix of older neighborhoods and new developments benefits from our flexible service plans. The town's hot, humid climate can stress lawns—we implement preventative measures against chinch bugs and other warm-weather pests. Our team handles everything from basic mowing to complete lawn renovations for Garner's diverse properties. We pay special attention to proper drainage solutions in areas with heavy clay soil.",
+        "localContext": "Garner's value-focused housing market means many homeowners prioritize practical, cost-effective lawn care.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Clayton",
+          "Fuquay-Varina"
+        ]
+      },
+      {
+        "city": "Knightdale",
+        "slug": "knightdale-nc",
+        "state": "NC",
+        "content": "Onyx Lawn Care serves Knightdale, NC, where newer subdivisions require professional lawn maintenance services. Many Knightdale properties feature open, sunny yards that need protection from summer heat stress. We implement water-wise practices to maintain green lawns without excessive irrigation in this growing town. Our services help preserve the manicured appearance of Knightdale's family-friendly neighborhoods while preventing common warm-season grass problems. From edging to leaf removal, we handle all aspects of lawn care for Knightdale's busy residents.",
+        "localContext": "Knightdale's position as a Raleigh bedroom community means many lawns see heavy family use.",
+        "nearbyAreas": [
+          "Raleigh",
+          "Wendell",
+          "Zebulon"
+        ]
+      },
+      {
+        "city": "Rolesville",
+        "slug": "rolesville-nc",
+        "state": "NC",
+        "content": "In Rolesville, NC, Onyx Lawn Care helps maintain the town's rural-meets-suburban landscape. Many properties here transition from large lots to more compact newer homes—we adapt our services accordingly. Rolesville's hot summers require special attention to lawn hydration without overwatering. We help prevent soil compaction in high-traffic areas while maintaining healthy turf growth. Our team understands the balance Rolesville residents seek between natural aesthetics and manicured appearance for their outdoor spaces.",
+        "localContext": "Rolesville's rapid growth means many properties need help establishing new lawns.",
+        "nearbyAreas": [
+          "Wake Forest",
+          "Raleigh",
+          "Youngsville"
+        ]
+      },
+      {
+        "city": "Clayton",
+        "slug": "clayton-nc",
+        "state": "NC",
+        "content": "Onyx Lawn Care serves Clayton, NC, where affordable new construction homes need proper lawn establishment. Many Clayton properties feature fescue grasses that struggle in summer heat—we implement special care programs to keep them healthy. The town's clay-heavy soil benefits from our aeration and topdressing services to improve growing conditions. We help Clayton residents maintain attractive lawns despite the challenging climate, with services tailored to each neighborhood's specific needs. From weed control to overseeding, we've got Clayton lawns covered.",
+        "localContext": "Clayton's status as a growth hotspot means many lawns are newly seeded and need expert care.",
+        "nearbyAreas": [
+          "Garner",
+          "Smithfield",
+          "Raleigh"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "clay-soil-lawn-aeration": "/images/service-clay-soil-lawn-aeration.webp",
+      "storm-damage-cleanup": "/images/service-storm-damage-cleanup.webp",
+      "seasonal-fertilization": "/images/service-seasonal-fertilization.webp",
+      "irrigation-winterization": "/images/service-irrigation-winterization.webp",
+      "turf-replacement": "/images/service-turf-replacement.webp"
+    },
+    "servicesResponsive": {
+      "clay-soil-lawn-aeration": {
+        "src": "/images/service-clay-soil-lawn-aeration.webp",
+        "srcset": "/images/service-clay-soil-lawn-aeration-400w.webp 400w, /images/service-clay-soil-lawn-aeration-800w.webp 800w, /images/service-clay-soil-lawn-aeration-1200w.webp 1200w, /images/service-clay-soil-lawn-aeration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "storm-damage-cleanup": {
+        "src": "/images/service-storm-damage-cleanup.webp",
+        "srcset": "/images/service-storm-damage-cleanup-400w.webp 400w, /images/service-storm-damage-cleanup-800w.webp 800w, /images/service-storm-damage-cleanup-1200w.webp 1200w, /images/service-storm-damage-cleanup.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "seasonal-fertilization": {
+        "src": "/images/service-seasonal-fertilization.webp",
+        "srcset": "/images/service-seasonal-fertilization-400w.webp 400w, /images/service-seasonal-fertilization-800w.webp 800w, /images/service-seasonal-fertilization-1200w.webp 1200w, /images/service-seasonal-fertilization.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "irrigation-winterization": {
+        "src": "/images/service-irrigation-winterization.webp",
+        "srcset": "/images/service-irrigation-winterization-400w.webp 400w, /images/service-irrigation-winterization-800w.webp 800w, /images/service-irrigation-winterization-1200w.webp 1200w, /images/service-irrigation-winterization.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "turf-replacement": {
+        "src": "/images/service-turf-replacement.webp",
+        "srcset": "/images/service-turf-replacement-400w.webp 400w, /images/service-turf-replacement-800w.webp 800w, /images/service-turf-replacement-1200w.webp 1200w, /images/service-turf-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
